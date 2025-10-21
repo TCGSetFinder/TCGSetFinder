@@ -1,0 +1,539 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TCGSetFinder</title>
+  <style>
+    :root {
+      --bg: #fefefe;
+      --accent: #222;
+      --border: #000000;
+      --radius: 6px;
+      --shadow: 0 2px 8px rgba(0,0,0,0.1);
+      --footer-bg: #F3F2F2;
+      --header-bg: #F3F2F2;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body, input, select, button {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+      font-feature-settings: "liga", "kern";
+      font-size: 16px;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--accent);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      background: var(--header-bg);
+      color: var(--accent);
+      position: relative;
+      box-shadow: var(--shadow);
+      font-weight: 500;
+    }
+
+    .title {
+      font-size: 1.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .github-link {
+      font-weight: 500;
+      text-decoration: none;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      padding: 0.4rem 0.9rem;
+      border-radius: var(--radius);
+      transition: background-color 0.2s ease, color 0.2s ease;
+      white-space: nowrap;
+    }
+    .github-link:hover {
+      background-color: var(--accent);
+      color: white;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 4rem 1rem 2rem;
+      gap: 2rem;
+      position: relative;
+    }
+
+    .search-board {
+      display: grid;
+      grid-template-columns: 1fr 3fr auto;
+      gap: 1rem;
+      align-items: center;
+      width: 100%;
+      max-width: 700px;
+      position: relative;
+    }
+
+    select {
+      padding: 0.7rem 2.5rem 0.7rem 1rem;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      font-size: 1rem;
+      text-align: center;
+      background-color: white;
+      color: var(--accent);
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23000' stroke-width='2' fill='none' fill-rule='evenodd'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.75rem center;
+      background-size: 12px 8px;
+      cursor: pointer;
+    }
+
+    select option {
+      text-align: center;
+      color: black;
+    }
+
+    select option[disabled] {
+      color: #888;
+    }
+
+    select:focus {
+      border-color: var(--accent);
+      outline: none;
+    }
+
+    input[type="text"] {
+      padding: 0.7rem 1rem;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      font-size: 1rem;
+      text-align: center;
+      transition: border 0.2s ease;
+      width: 100%;
+      position: relative;
+      z-index: 10;
+    }
+
+    input:focus {
+      border-color: var(--accent);
+      outline: none;
+    }
+
+    input:disabled {
+      background-color: #f0f0f0;
+      cursor: not-allowed;
+    }
+
+    .search-btn {
+      padding: 0.7rem 1rem;
+      line-height: 1.2;
+      font-size: 1rem;
+      border-radius: var(--radius);
+      background: #000000;
+      color: white;
+      border: 1px solid var(--border);
+      cursor: pointer;
+      font-weight: 500;
+      white-space: nowrap;
+      transition: background 0.2s ease;
+    }
+
+    .search-btn:hover {
+      background: #222;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 700px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    /* Autocomplete suggestions box */
+    #suggestions {
+      position: absolute;
+      top: 3.3rem;
+      left: 100px; /* aligned with input, adjust if needed */
+      right: 110px; /* space for button */
+      background: white;
+      border: 1px solid var(--border);
+      border-top: none;
+      border-radius: 0 0 var(--radius) var(--radius);
+      box-shadow: var(--shadow);
+      max-height: 200px;
+      overflow-y: auto;
+      font-size: 1rem;
+      z-index: 1000;
+      cursor: pointer;
+    }
+
+    #suggestions div {
+      padding: 0.5rem 1rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    #suggestions div:last-child {
+      border-bottom: none;
+    }
+
+    #suggestions div:hover {
+      background-color: var(--footer-bg);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.2rem 1rem 1rem;
+      font-size: 0.95rem;
+      color: var(--accent);
+      background: var(--footer-bg);
+      font-weight: 700;
+      user-select: none;
+    }
+
+    footer a {
+      display: block;
+      margin-top: 0.25rem;
+      color: var(--accent);
+      text-decoration: underline;
+      cursor: pointer;
+      font-weight: 500;
+    }
+
+    footer a:hover {
+      color: #555;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+
+      .search-board {
+        grid-template-columns: 1fr;
+        width: 100%;
+      }
+
+      .search-btn {
+        align-self: flex-end;
+      }
+
+      #suggestions {
+        left: 0;
+        right: 0;
+        top: 3.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="title" onclick="resetForm()">TCGSetFinder</div>
+    <a href="https://github.com/yourgithubusername" class="github-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </header>
+
+  <main>
+    <div class="search-board">
+      <select id="tcgSelect" onchange="loadDataAndEnableSearch()">
+        <option value="" disabled selected>Select TCG</option>
+        <option value="Flesh and Blood">Flesh and Blood</option>
+        <option value="Grand Archive">Grand Archive</option>
+        <option value="Lorcana">Lorcana</option>
+        <option value="MTG Magic">MTG Magic</option>
+        <option value="One Piece">One Piece</option>
+        <option value="Pokémon">Pokémon</option>
+        <option value="Riftbound">Riftbound</option>
+        <option value="Star Wars Unlimited">Star Wars Unlimited</option>
+        <option value="Yu-Gi-Oh!">Yu-Gi-Oh!</option>
+      </select>
+
+      <div style="position:relative; width:100%;">
+        <input
+          type="text"
+          id="cardSearch"
+          placeholder="Search card name..."
+          maxlength="50"
+          disabled
+          autocomplete="off"
+          oninput="handleAutocomplete()"
+          onkeydown="handleKeyDown(event)"
+          aria-autocomplete="list"
+          aria-controls="suggestions"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+        />
+        <div id="suggestions" style="display:none;"></div>
+      </div>
+
+      <button class="search-btn" onclick="handleSearch()">Search</button>
+    </div>
+
+    <div class="card" id="results">
+      <p>Welcome to the TCG set finder tool. Find sets and packs for your favorite cards!</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 TCGSetFinder
+    <a href="https://github.com/yourgithubusername/disclaimer" target="_blank" rel="noopener noreferrer">Legal Disclaimer &amp; Credits</a>
+  </footer>
+
+  <script>
+    const dataBaseURL = 'https://raw.githubusercontent.com/TCGSetFinder/TCGSetFinder/main/data/';
+    const TCG_TO_JSON = {
+      "Flesh and Blood": "FaB_sets.json",
+      "Grand Archive": "GrandArchive_sets.json",
+      "Lorcana": "Lorcana_sets.json",
+      "MTG Magic": "MTG_sets.json",
+      "One Piece": "OnePiece_sets.json",
+      "Pokémon": "Pokemon_sets.json",
+      "Riftbound": "Riftbound_sets.json",
+      "Star Wars Unlimited": "StarWars_sets.json",
+      "Yu-Gi-Oh!": "Yugioh_sets.json"
+    };
+
+    let currentData = [];
+    let suggestionsVisible = false;
+    let selectedSuggestionIndex = -1;
+
+    function loadDataAndEnableSearch() {
+      const select = document.getElementById('tcgSelect');
+      const cardSearch = document.getElementById('cardSearch');
+      const resultsBox = document.getElementById('results');
+      const suggestionsBox = document.getElementById('suggestions');
+
+      const selectedTCG = select.value;
+
+      cardSearch.value = '';
+      selectedSuggestionIndex = -1;
+      suggestionsBox.style.display = 'none';
+      suggestionsBox.innerHTML = '';
+      resultsBox.innerHTML = `<p>Loading data for ${selectedTCG}...</p>`;
+
+      if (!selectedTCG) {
+        cardSearch.disabled = true;
+        resultsBox.innerHTML = `<p>Welcome to the TCG set finder tool. Find sets and packs for your favorite cards!</p>`;
+        currentData = [];
+        return;
+      }
+
+      cardSearch.disabled = false;
+      cardSearch.focus();
+
+      fetch(dataBaseURL + TCG_TO_JSON[selectedTCG])
+        .then(res => {
+          if (!res.ok) throw new Error(`Failed to load data: ${res.status}`);
+          return res.json();
+        })
+        .then(data => {
+          currentData = data;
+          resultsBox.innerHTML = `<p>Data loaded. Enter a card name to search.</p>`;
+        })
+        .catch(err => {
+          currentData = [];
+          resultsBox.innerHTML = `<p style="color:red;">Error loading data: ${err.message}</p>`;
+        });
+    }
+
+    function handleSearch() {
+      const tcgSelect = document.getElementById('tcgSelect');
+      const tcg = tcgSelect.value;
+      const cardInput = document.getElementById('cardSearch').value.trim().toLowerCase();
+      const resultsBox = document.getElementById('results');
+
+      if (!tcg) {
+        alert("Please select a TCG.");
+        return;
+      }
+
+      if (!cardInput) {
+        alert("Please enter a card name.");
+        return;
+      }
+
+      if (!currentData.length) {
+        alert("Data is not loaded yet. Please wait a moment and try again.");
+        return;
+      }
+
+      // Filter cards whose Name includes the search term (case-insensitive)
+      const matchedSets = new Set();
+      currentData.forEach(item => {
+        if (item.Name.toLowerCase().includes(cardInput)) {
+          matchedSets.add(item.Set_Name);
+        }
+      });
+
+      if (matchedSets.size === 0) {
+        resultsBox.innerHTML = `<p>No results found for "<strong>${cardInput}</strong>" in <strong>${tcg}</strong>.</p>`;
+        return;
+      }
+
+      resultsBox.innerHTML = `
+        <h2 style="text-align:center; font-size:1.3rem; font-weight:600; margin-bottom:1rem;">
+          ${cardInput} can be found in:
+        </h2>
+        <ul style="list-style:none; padding:0; text-align:center;">
+          ${Array.from(matchedSets).map(set => `<li>${set}</li>`).join('')}
+        </ul>
+      `;
+      // Hide suggestions after search
+      hideSuggestions();
+    }
+
+    function resetForm() {
+      document.getElementById('tcgSelect').selectedIndex = 0;
+      const searchInput = document.getElementById('cardSearch');
+      searchInput.value = '';
+      searchInput.disabled = true;
+      currentData = [];
+      document.getElementById('results').innerHTML = `
+        <p>Welcome to the TCG set finder tool. Find sets and packs for your favorite cards!</p>
+      `;
+      hideSuggestions();
+    }
+
+    // AUTOCOMPLETE FUNCTIONS
+
+    function handleAutocomplete() {
+      const input = document.getElementById('cardSearch');
+      const suggestionsBox = document.getElementById('suggestions');
+      const query = input.value.trim().toLowerCase();
+
+      selectedSuggestionIndex = -1;
+
+      if (!query || !currentData.length) {
+        hideSuggestions();
+        return;
+      }
+
+      // Find unique card names starting with query, limit 10
+      const matchedCards = [];
+      const seenNames = new Set();
+
+      for (const item of currentData) {
+        const nameLower = item.Name.toLowerCase();
+        if (nameLower.startsWith(query) && !seenNames.has(item.Name)) {
+          matchedCards.push(item.Name);
+          seenNames.add(item.Name);
+          if (matchedCards.length >= 10) break;
+        }
+      }
+
+      if (matchedCards.length === 0) {
+        hideSuggestions();
+        return;
+      }
+
+      suggestionsBox.innerHTML = matchedCards
+        .map((name, idx) => `<div role="option" aria-selected="false" data-index="${idx}" tabindex="-1">${name}</div>`)
+        .join('');
+      suggestionsBox.style.display = 'block';
+      input.setAttribute('aria-expanded', 'true');
+
+      // Add click event to suggestions
+      Array.from(suggestionsBox.children).forEach(div => {
+        div.addEventListener('mousedown', (e) => {
+          e.preventDefault(); // prevent input losing focus
+          selectSuggestion(parseInt(div.dataset.index));
+        });
+      });
+    }
+
+    function selectSuggestion(index) {
+      const suggestionsBox = document.getElementById('suggestions');
+      const input = document.getElementById('cardSearch');
+      const suggestionDivs = suggestionsBox.children;
+
+      if (index < 0 || index >= suggestionDivs.length) return;
+
+      input.value = suggestionDivs[index].textContent;
+      hideSuggestions();
+      input.focus();
+    }
+
+    function hideSuggestions() {
+      const suggestionsBox = document.getElementById('suggestions');
+      const input = document.getElementById('cardSearch');
+      suggestionsBox.style.display = 'none';
+      suggestionsBox.innerHTML = '';
+      input.setAttribute('aria-expanded', 'false');
+      selectedSuggestionIndex = -1;
+    }
+
+    function handleKeyDown(event) {
+      const suggestionsBox = document.getElementById('suggestions');
+      if (suggestionsBox.style.display === 'none') return;
+
+      const suggestionDivs = suggestionsBox.children;
+      if (!suggestionDivs.length) return;
+
+      if (event.key === 'ArrowDown') {
+        event.preventDefault();
+        selectedSuggestionIndex = (selectedSuggestionIndex + 1) % suggestionDivs.length;
+        updateHighlight();
+      } else if (event.key === 'ArrowUp') {
+        event.preventDefault();
+        selectedSuggestionIndex = (selectedSuggestionIndex - 1 + suggestionDivs.length) % suggestionDivs.length;
+        updateHighlight();
+      } else if (event.key === 'Enter') {
+        if (selectedSuggestionIndex >= 0) {
+          event.preventDefault();
+          selectSuggestion(selectedSuggestionIndex);
+        }
+      } else if (event.key === 'Escape') {
+        hideSuggestions();
+      }
+    }
+
+    function updateHighlight() {
+      const suggestionsBox = document.getElementById('suggestions');
+      const suggestionDivs = suggestionsBox.children;
+
+      for (let i = 0; i < suggestionDivs.length; i++) {
+        if (i === selectedSuggestionIndex) {
+          suggestionDivs[i].style.backgroundColor = 'var(--footer-bg)';
+          suggestionDivs[i].setAttribute('aria-selected', 'true');
+          suggestionDivs[i].scrollIntoView({ block: 'nearest' });
+        } else {
+          suggestionDivs[i].style.backgroundColor = '';
+          suggestionDivs[i].setAttribute('aria-selected', 'false');
+        }
+      }
+    }
+
+    // Hide suggestions if clicking outside
+    document.addEventListener('click', (e) => {
+      const input = document.getElementById('cardSearch');
+      const suggestionsBox = document.getElementById('suggestions');
+      if (e.target !== input && !suggestionsBox.contains(e.target)) {
+        hideSuggestions();
+      }
+    });
+  </script>
+</body>
+</html>
