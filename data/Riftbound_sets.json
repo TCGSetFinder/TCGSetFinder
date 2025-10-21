@@ -1,0 +1,1538 @@
+[
+  {
+    "Name": "Origins - Booster Pack",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Origins - Booster Display",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Origins - Booster Display Case",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Origins - Champion Deck (Jinx)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Origins - Champion Deck (Jinx) Display",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Origins - Champion Deck (Viktor) Display",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Origins - Champion Deck (Viktor)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Origins - Champion Deck (Lee Sin)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Origins - Champion Deck (Lee Sin) Display",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Origins - Sleeved Booster Pack",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Origins - Proving Grounds Box Set",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Blazing Scorcher",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Brazen Buccaneer",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Chemtech Enforcer",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Cleave",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Disintegrate",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Flame Chompers",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Fury Rune",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Fury Rune (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Get Excited!",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Hextech Ray",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Legion Rearguard",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Magma Wurm",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Noxus Hopeful",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Pouty Poro",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sky Splitter",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Captain Farron",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Dangerous Duo",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Iron Ballista",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Noxus Saboteur",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Raging Soul",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Scrapyard Champion",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sun Disc",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Thermo Beam",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Unlicensed Armory",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Void Seeker",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Blind Fury",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Brynhir Thundersong",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Darius - Trifarian",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Darius - Trifarian (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Draven - Showboat",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Falling Star",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Jinx - Demolitionist",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Jinx - Demolitionist (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Raging Firebrand",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Ravenborn Tome",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Shakedown",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Tryndamere - Barbarian",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Vayne - Hunter",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Vi - Destructive",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Immortal Phoenix",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Kadregrin the Infernal",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Kai'Sa - Survivor",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Kai'Sa - Survivor (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Seal of Rage",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Volibear - Furious",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Volibear - Furious (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Calm Rune",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Calm Rune (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Charm",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Clockwork Keeper",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Defy",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "En Garde",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Find Your Center",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Meditation",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Playful Phantom",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Rune Prison",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Solari Shieldbearer",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Stalwart Poro",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Stand United",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sunlit Guardian",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Wielder of Water",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Adaptatron",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Block",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Discipline",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Eclipse Herald",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Mask of Foresight",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Poro Herder",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Reinforce",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Spirit's Refuge",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Wind Wall",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Wizened Elder",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Ahri - Alluring",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Ahri - Alluring (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Blitzcrank - Impassive",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Caitlyn - Patrolling",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Last Stand",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Mageseeker Warden",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Party Favors",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Solari Shrine",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sona - Harmonious",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Taric - Protector",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Tasty Faefolk",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Yasuo - Remorseful",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Yasuo - Remorseful (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Zhonya's Hourglass",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Lee Sin - Ascetic",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Lee Sin - Ascetic (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Leona - Zealot",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Leona - Zealot (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Mystic Reversal",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Seal of Focus",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Whiteflame Protector",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Consult the Past",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Eager Apprentice",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Falling Comet",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Jeweled Colossus",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Lecturing Yordle",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Mega-Mech",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Mind Rune",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Mind Rune (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Orb of Regret",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Pit Crew",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Riptide Rex",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Smoke Screen",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sprite Call",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Stupefy",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Watchful Sentry",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Blastcone Fae",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Energy Conduit",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Garbage Grabber",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Gemcraft Seer",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Mushroom Pouch",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Portal Rescue",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Ravenbloom Student",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Retreat",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Singularity",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sprite Mother",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Ava Achiever",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Convergent Mutation",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Dr. Mundo - Expert",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Ekko - Recurrent",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Heimerdinger - Inventor",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Kai'Sa - Evolutionary",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Kai'Sa - Evolutionary (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Malzahar - Fanatic",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Progress Day",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Promising Future",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Thousand-Tailed Watcher",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Viktor - Innovator",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Wraith of Echoes",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Ahri - Inquisitive",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Seal of Insight",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Teemo - Strategist",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Teemo - Strategist (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Time Warp",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Unchecked Power",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Arena Bar",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Bilgewater Bully",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Body Rune",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Body Rune (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Cannon Barrage",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Challenge",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Confront",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Crackshot Corsair",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Dune Drake",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "First Mate",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Flurry of Blades",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Mobilize",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Pakaa Cub",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Pit Rookie",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Stormclaw Ursine",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Catalyst of Aeons",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Cithria of Cloudfield",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Herald of Scales",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Kinkou Monk",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Mountain Drake",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Pirate's Haven",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Spoils of War",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Unyielding Spirit",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Wallop",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Wildclaw Shaman",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Anivia - Primal",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Carnivorous Snapvine",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Kraken Hunter",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Lee Sin - Centered",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Lee Sin - Centered (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Mistfall",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Overt Operation",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Primal Strength",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Qiyana - Victorious",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sabotage",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Udyr - Wildman",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Volibear - Imposing",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Volibear - Imposing (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Warwick - Hunter",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Dazzling Aurora",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Deadbloom Predator",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Miss Fortune - Captain",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Miss Fortune - Captain (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Seal of Strength",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sett - Brawler",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sett - Brawler (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Cemetery Attendant",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Chaos Rune",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Chaos Rune (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Ember Monk",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Fight or Flight",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Gust",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Morbid Return",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Mystic Poro",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Rebuke",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Ride The Wind",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sai Scout",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Shipyard Skulker",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sneaky Deckhand",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Stealthy Pursuer",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Undercover Agent",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Acceptable Losses",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Fading Memories",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Pack of Wonders",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Scrapheap",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Stacked Deck",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "The Syren",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Traveling Merchant",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Treasure Trove",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Whirlwind",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Zaunite Bouncer",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Kayn - Unleashed",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Kog'Maw - Caustic",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Maddened Marauder",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Mindsplitter",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Miss Fortune - Buccaneer",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Miss Fortune - Buccaneer (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Nocturne - Horrifying",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Rhasa the Sunderer",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Soulgorger",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Teemo - Scout",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Teemo - Scout (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "The Harrowing",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Tideturner",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Twisted Fate - Gambler",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Invert Timeline",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Jinx - Rebel",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Jinx - Rebel (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Possession",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Seal of Discord",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Yasuo - Windrider",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Yasuo - Windrider (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Back to Back",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Call to Glory",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Cruel Patron",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Cull the Weak",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Daring Poro",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Faithful Manufactor",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Forge of the Future",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Hidden Blade",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Order Rune",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Order Rune (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Petty Officer",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Soaring Scout",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Trifarian Gloryseeker",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Vanguard Captain",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Vanguard Sergeant",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Facebreaker",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Imperial Decree",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Noxian Drummer",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Peak Guardian",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Salvage",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Solari Chief",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Spectral Matron",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Symbol of the Solari",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Vanguard Helm",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Vengeance",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Albus Ferros",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Commander Ledros",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Fiora - Victorious",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Grand Strategem",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Harnessed Dragon",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Karma - Channeler",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Karthus - Eternal",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "King's Edict",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Leona - Determined",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Leona - Determined (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Machine Evangel",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sett - Kingpin",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sett - Kingpin (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Shen - Kinkou",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Baited Hook",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Darius - Executioner",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Darius - Executioner (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Divine Judgment",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Seal of Unity",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Viktor - Leader",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Viktor - Leader (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Kai'Sa - Daughter of the Void",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Icathian Rain",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Volibear - Relentless Storm",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Stormbringer",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Jinx - Loose Cannon",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Super Mega Death Rocket!",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Darius - Hand of Noxus",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Noxian Guillotine",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Ahri - Nine-Tailed Fox",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Fox-Fire",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Lee Sin - Blind Monk",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Dragon's Rage",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Yasuo - Unforgiven",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Last Breath",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Leona - Radiant Dawn",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Zenith Blade",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Teemo - Swift Scout",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Guerilla Warfare",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Viktor - Herald of the Arcane",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Siphon Power",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Miss Fortune - Bounty Hunter",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Bullet Time",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sett - The Boss",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Showstopper",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Altar to Unity",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Aspirant's Climb",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Back-Alley Bar",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Bandle Tree",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Fortified Position",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Grove of the God-Willow",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Hallowed Tomb",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Monastery of Hirana",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Navori Fighting Pit",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Obelisk of Power",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Reaver's Row",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Reckoner's Arena",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sigil of the Storm",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Startipped Peak",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Targon's Peak",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "The Arena's Greatest",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "The Candlelit Sanctum",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "The Dreaming Tree",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "The Grand Plaza",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Trifarian War Camp",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Vilemaw's Lair",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Void Gate",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Windswept Hillock",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Zaun Warrens",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Kai'Sa - Daughter of the Void (Overnumbered)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Kai'Sa - Daughter of the Void (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Volibear - Relentless Storm (Overnumbered)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Volibear - Relentless Storm (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Jinx - Loose Cannon (Overnumbered)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Jinx - Loose Cannon (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Darius - Hand of Noxus (Overnumbered)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Darius - Hand of Noxus (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Ahri - Nine-Tailed Fox (Overnumbered)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Ahri - Nine-Tailed Fox (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Lee Sin - Blind Monk (Overnumbered)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Lee Sin - Blind Monk (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Yasuo - Unforgiven (Overnumbered)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Yasuo - Unforgiven (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Leona - Radiant Dawn (Overnumbered)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Leona - Radiant Dawn (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Teemo - Swift Scout (Overnumbered)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Teemo - Swift Scout (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Viktor - Herald of the Arcane (Overnumbered)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Viktor - Herald of the Arcane (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Miss Fortune - Bounty Hunter (Overnumbered)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Miss Fortune - Bounty Hunter (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sett - The Boss (Overnumbered)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Sett - The Boss (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Buff",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Viktor - Innovator (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Ahri - Inquisitive (Alternate Art)",
+    "Set_Name": "Origins"
+  },
+  {
+    "Name": "Annie - Fiery",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Firestorm",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Incinerate",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Master Yi - Meditative",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Zephyr Sage",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Lux - Illuminated",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Garen - Rugged",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Gentlemen's Duel",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Master Yi - Honed",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Annie - Stubborn",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Flash",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Blast of Power",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Garen - Commander",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Lux - Crownguard",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Recruit the Vanguard",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Vanguard Attendant",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Annie - Dark Child (Starter)",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Tibbers",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Master Yi - Wuju Bladesman (Starter)",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Highlander",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Lux - Lady of Luminosity (Starter)",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Final Spark",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Garen - Might of Demacia (Starter)",
+    "Set_Name": "Origins: Proving Grounds"
+  },
+  {
+    "Name": "Decisive Strike",
+    "Set_Name": "Origins: Proving Grounds"
+  }
+]
