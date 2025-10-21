@@ -13,7 +13,7 @@ Whether you're tracking down reprints, creating decks, or exploring the history 
 
 ## Project Structure
 
-- `index.html`, `style.css`, `script.js` — Core website files
+- `index.html` — Core website files
 - `data/` — JSON files containing card-to-set mappings
 - `README.md` — Project overview and documentation
 - `LICENSE` — MIT License for the website code
