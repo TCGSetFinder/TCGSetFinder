@@ -2,7 +2,7 @@
 
 **TCGSetFinder** is a search tool designed for trading card game enthusiasts, collectors, and researchers. This web-based application allows users to input the name of any card and instantly discover all the set names in which that card was printed.
 
-Whether you're tracking down reprints, creating decks, or exploring the history of your favorite cards, TCG Set Finder provides data for multiple trading card games (TCGs), including but not limited to Grand Archive , Riftbound, Lorcana, Magic: The Gathering, Pokémon, Yu-Gi-Oh!, and others.
+Whether you're tracking down reprints, creating decks, or exploring the history of your favorite cards, TCG Set Finder provides data for multiple trading card games (TCGs), including but not limited to Grand Archive, Lorcana, Magic: The Gathering, One Piece, Pokémon, Riftbound, Yu-Gi-Oh!, and others.
 
 ## Features
 
@@ -13,7 +13,7 @@ Whether you're tracking down reprints, creating decks, or exploring the history 
 
 ## Project Structure
 
-- `index.html` — Core website files
+- `index.html` — Core website file
 - `data/` — JSON files containing card-to-set mappings
 - `README.md` — Project overview and documentation
 - `LICENSE` — MIT License for the website code
