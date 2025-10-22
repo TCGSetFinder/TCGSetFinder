@@ -1,4 +1,4 @@
-﻿**Legal Disclaimer & Credits**
+# Legal Disclaimer & Credits
 
 **Disclaimer:**  
 
@@ -19,3 +19,4 @@ This website is a **fan-made project** created for **informational and entertain
 **Data Usage Notice:**  
 
 This website uses publicly available card and set name data sourced from multiple APIs, public databases, and community-maintained resources. All data is used for non-commercial and educational purposes only. For full attribution of data sources, please refer to the data-sources.md file.
+
