@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TCGSetFinder</title>
+  <meta name="robots" content="index, follow" />
+  <meta name="description" content="Discover which sets your trading cards belong to and were printed in—covering Flesh and Blood, Grand Archive, Lorcana, One Piece, Riftbound, Yu-Gi-Oh!, and more." />
+  <title>TCGSetFinder – Trading Card Set Search Tool</title>
   <style>
     :root {
       --bg: #fefefe;
@@ -172,12 +174,11 @@
       text-align: center;
     }
 
-    /* Autocomplete suggestions box */
     #suggestions {
       position: absolute;
       top: 3.3rem;
-      left: 100px; /* aligned with input, adjust if needed */
-      right: 110px; /* space for button */
+      left: 100px;
+      right: 110px;
       background: white;
       border: 1px solid var(--border);
       border-top: none;
@@ -257,6 +258,9 @@
   </header>
 
   <main>
+    <h1 style="text-align:center; font-size:2rem; font-weight:700; margin-bottom:1rem;">
+      TCGSetFinder - Your Card to Set Search Tool
+    </h1>
     <div class="search-board">
       <select id="tcgSelect" onchange="loadDataAndEnableSearch()">
         <option value="" disabled selected>Select TCG</option>
@@ -293,7 +297,7 @@
     </div>
 
     <div class="card" id="results">
-      <p>Welcome to the TCG set finder tool. Find sets and packs for your favorite cards!</p>
+      <p>Search and Discover sets for your favorite cards!</p>
     </div>
   </main>
 
@@ -336,7 +340,7 @@
 
       if (!selectedTCG) {
         cardSearch.disabled = true;
-        resultsBox.innerHTML = `<p>Welcome to the TCG set finder tool. Find sets and packs for your favorite cards!</p>`;
+        resultsBox.innerHTML = `<p>Search and Discover sets for your favorite cards!</p>`;
         currentData = [];
         return;
       }
@@ -380,7 +384,6 @@
         return;
       }
 
-      // Filter cards whose Name includes the search term (case-insensitive)
       const matchedSets = new Set();
       currentData.forEach(item => {
         if (item.Name.toLowerCase().includes(cardInput)) {
@@ -401,7 +404,6 @@
           ${Array.from(matchedSets).map(set => `<li>${set}</li>`).join('')}
         </ul>
       `;
-      // Hide suggestions after search
       hideSuggestions();
     }
 
@@ -412,12 +414,10 @@
       searchInput.disabled = true;
       currentData = [];
       document.getElementById('results').innerHTML = `
-        <p>Welcome to the TCG set finder tool. Find sets and packs for your favorite cards!</p>
+        <p>Search and Discover sets for your favorite cards!</p>
       `;
       hideSuggestions();
     }
-
-    // AUTOCOMPLETE FUNCTIONS
 
     function handleAutocomplete() {
       const input = document.getElementById('cardSearch');
@@ -431,7 +431,6 @@
         return;
       }
 
-      // Find unique card names starting with query, limit 10
       const matchedCards = [];
       const seenNames = new Set();
 
@@ -455,10 +454,9 @@
       suggestionsBox.style.display = 'block';
       input.setAttribute('aria-expanded', 'true');
 
-      // Add click event to suggestions
       Array.from(suggestionsBox.children).forEach(div => {
         div.addEventListener('mousedown', (e) => {
-          e.preventDefault(); // prevent input losing focus
+          e.preventDefault();
           selectSuggestion(parseInt(div.dataset.index));
         });
       });
@@ -526,7 +524,6 @@
       }
     }
 
-    // Hide suggestions if clicking outside
     document.addEventListener('click', (e) => {
       const input = document.getElementById('cardSearch');
       const suggestionsBox = document.getElementById('suggestions');
